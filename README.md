@@ -22,13 +22,12 @@ The software can run both on a desktop environment (OSX, Linux) such as a laptop
 - start the app again using `cartoonify`.
 - you will be prompted to enter the filepath to an image for processing. Enter the absolute filepath surrounded by double quotes.
 
-*Unfortunately python 2.7 is required because the correct python 3 wheels are not available for both the pi and desktop.
+* Python 2.7 is required because the correct python 3 wheels are not available for both the pi and desktop.
 
 ### Raspberry pi wiring
 
 The following wiring diagram will get you started with a shutter button and a status LED.
-If the software is working correctly, the status LED should light up for 2-3 seconds when the shutter is pressed
-while the raspi is processing an image. If the light stays on, something has gone wrong (most likely the camera is unplugged).
+The status LED should light up for 2-3 seconds when the shutter is pressed while the raspi is processing an image. If the light stays on, something has gone wrong (most likely the camera is unplugged).
 
 __IMPORTANT NOTE__ the diagram below shows AA cells, however this is not correct. You must use eneloop cells to power the camera - these cells
 deliver 1.2V each, as well as enough current to drive the raspi and thermal printer.
